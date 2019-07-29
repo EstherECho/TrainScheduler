@@ -9,17 +9,17 @@
 
 // 1. Initialize Firebase
 
-const config = {
-    apiKey: "AIzaSyCuVy4iXkgzFyRiDD691FzsR1HEC8OTev0",
-    authDomain: "timesheeet-58c70.firebaseapp.com",
-    databaseURL: "https://timesheeet-58c70.firebaseio.com",
-    projectId: "timesheeet-58c70",
-    storageBucket: "timesheeet-58c70.appspot.com",
-    messagingSenderId: "13017440633",
-    appId: "1:13017440633:web:db84a0eba7ae2b1c"
+var firebaseConfig = {
+    apiKey: "AIzaSyAvUzg15aSPlb8D17e8lB7ecAfHlZkIQnk",
+    authDomain: "trainscheduler-1dac8.firebaseapp.com",
+    databaseURL: "https://trainscheduler-1dac8.firebaseio.com",
+    projectId: "trainscheduler-1dac8",
+    storageBucket: "",
+    messagingSenderId: "798328649505",
+    appId: "1:798328649505:web:af66ec34cfffa920"
   };
 
-firebase.initializeApp(config);
+  firebase.initializeApp(firebaseConfig);
 
 var database = firebase.database();
 
